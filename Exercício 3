@@ -1,0 +1,16 @@
+programa
+{
+	/*Exercicio 3.Escreva um programa que dados as variáveis chamadas mãe e filha, troque seus valores.
+      Apresente os valores das variáveis mãe e filha após a troca. Um exemplo de como começar o
+      algoritmo pode ser visto abaixo: */ 
+	funcao inicio()
+	{
+
+	cadeia mae = "Tess"
+	cadeia filha = "Ana"
+	cadeia aux = mae
+
+	escreva("Qual o nome da mãe de Ana: ",aux,"\nQual o nome da filha de Tess:", filha)
+	
+	}
+}
