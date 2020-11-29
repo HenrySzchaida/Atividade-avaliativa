@@ -1,0 +1,19 @@
+programa
+{
+	 /* Faça um programa que converta metros para centímetros.*/
+	funcao inicio()
+	{
+	inteiro m
+	inteiro cm
+     inteiro mm
+		
+		escreva("Diga um valor em metros: ")
+		leia(m)
+
+		cm = m * 100
+
+		escreva("O seu numero convertido em centímetros será: " , cm ," cm")
+		 
+		
+	}
+}
