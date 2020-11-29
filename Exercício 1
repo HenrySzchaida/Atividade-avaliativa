@@ -1,0 +1,28 @@
+programa
+{
+	inclua biblioteca Matematica --> matematica
+	
+ 
+	funcao inicio()
+	{
+		 
+        
+        real = HarryPPedraFilosofal, HarryPCamaraDosSegredos, HarryPPrisioneiroDeAzkaban, HarryPCaliceDeFogo, HarryPOrdemDaFenix, HarryPPrincipeMisterioso	
+
+        
+   HarryPPedraFilosofal = 26.90
+	 HarryPCamaraDosSegredos = 34.10
+	 HarryPPrisioneiroDeAzkaban = 29.90
+	 HarryPCaliceDeFogo = 26.90
+	 HarryPOrdemDaFenix = 50.00
+	 HarryPPrincipeMisterioso = 26.90
+
+	    real calculo = 0
+	    real soma =  HarryPPedraFilosofal +  HarryPCamaraDosSegredos + HarryPPrisioneiroDeAzkaban + HarryPCaliceDeFogo + HarryPOrdemDaFenix + HarryPPrincipeMisterioso
+	 
+         calculo = matematica.arredondar(soma, 3)
+    
+         escreva("Todos os seis livros de Harry Potter ficarão Por: R$", calculo,0)
+		
+	}
+}
