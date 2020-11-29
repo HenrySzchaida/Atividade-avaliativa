@@ -1,0 +1,34 @@
+programa
+{
+	/*exercício 9. Toda vez que um pescador traz um peso de peixes maior que o estabelecido pelo
+    regulamento de pesca do estado de Santa Catarina (50 quilos) deve pagar uma multa de R$
+    4,50 por quilo excedente.
+    A colônia de pescadores precisa que você:
+    a. Escreva um programa que leia a variável peso_de_peixes e calcule o excesso.
+    b. Grave em uma variável chamada excesso, a quantidade de quilos além do limite e
+    na variável multa o valor da multa que o pescador deverá pagar.
+    c. Escreva na tela os dados do programa com as mensagens adequadas (quantidade de
+    peixe pescado, multa a ser paga, etc)*/
+	funcao inicio()
+	{
+			{
+real peso_de_peixes = 51.0
+
+
+real multa_calculada = 0
+real peso_excedente = 0
+
+peso_excedente = peso_de_peixes - 50
+multa_calculada = peso_excedente * 4.5
+
+escreva("Qual é o peso do peixe que você pescou? \n")
+leia(peso_de_peixes)
+
+peso_excedente = (peso_de_peixes - 50) 
+
+escreva("você pescou ", peso_excedente, "\nkg a mais \n")
+
+escreva("\n\n \npeso = ", peso_de_peixes, "\nMulta_calculada: ", peso_excedente * 4.5)
+		
+	}
+}
