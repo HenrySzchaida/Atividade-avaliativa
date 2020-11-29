@@ -1,0 +1,37 @@
+programa
+{
+	 /*.Faça um programa dado quatro variáveis que (4 notas bimestrais),
+    mostre a média. */
+	funcao inicio()
+	{
+
+		//Variáveis
+		
+		inteiro nota1
+		inteiro nota2
+		inteiro nota3
+		inteiro nota4
+		inteiro soma
+		inteiro media
+		
+		//Programa
+		
+		escreva("Quanto você tirou no primeiro bimestre? ")
+		leia(nota1)
+		
+		escreva("Quanto você tirou no segundo bimetre? ")
+		leia(nota2)
+		
+		escreva("Quanto você tirou no terceiro bimetre? ")
+		leia(nota3)
+		
+		escreva("Quanto você tirou no quarto bimetre? ")
+		leia(nota4)
+		
+		
+		soma = nota1 + nota2 + nota3 +nota4
+		media = soma / 4
+
+		escreva("Sua media foi: ", (nota1 +nota2 + nota3 +nota4)/4 )
+	}
+}
