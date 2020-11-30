@@ -1,0 +1,34 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		real precoDolar = 1300.0
+		real cotacaoDoDia = 5.0
+		real precoReal = precoDolar * cotacaoDoDia
+		real economia
+		real dolaresQueFaltam
+		real reaisQueFaltam
+		real economiaEmDolares
+
+		 escreva("quantos reais você tem?")
+		 leia(economia)
+
+		 //a)tela quantos Dólares faltam para comprar um PS5.
+		 economiaEmDolares = economia / cotacaoDoDia
+		 dolaresQueFaltam = precoDolar - economiaEmDolares
+		 escreva(dolaresQueFaltam, "\n")
+
+		 //b)quantos Reais faltam para comprar um PS5.
+		 reaisQueFaltam = precoReal - economia
+		 escreva(reaisQueFaltam, "\n")
+
+		 //c)quantos livros Harry Potter e a Ordem da Fênix poderiam ser comprados com o mesmo valor.
+		 inteiro livros = precoReal / 26.90
+		 escreva(livros)
+		 
+		 
+		 
+		
+	}
+}
